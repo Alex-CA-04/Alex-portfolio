@@ -10,10 +10,10 @@ app.use(express.json());
 app.use(express.static('public'));
 
 const db = mysql.createConnection({
-    host: process.env.DB_HOST || 'localhost',
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || 'admin',
-    database: process.env.DB_NAME || 'portfolio_db',
+    host: process.env.DB_HOST || 'sql12.freesqldatabase.com',
+    user: process.env.DB_USER || 'sql12817882',
+    password: process.env.DB_PASSWORD || 'XAR8lZHaZ5',
+    database: process.env.DB_NAME || 'sql12817882',
     port: process.env.DB_PORT || 3306
 });
 
