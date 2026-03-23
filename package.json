@@ -1,21 +1,21 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "Full-stack portfolio website with Node.js, Express, and MySQL",
+  "description": "Full-stack portfolio website with Node.js, Express, and MongoDB",
   "main": "server/app.js",
   "engines": {
     "node": ">=14.0.0"
   },
   "scripts": {
     "start": "node server/app.js",
-    "dev": "nodemon server/app.js"
+    "dev": "vercel dev"
   },
-  "keywords": ["portfolio", "express", "mysql", "nodejs"],
+  "keywords": ["portfolio", "express", "mongodb", "nodejs"],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mysql2": "^3.6.0",
+    "mongoose": "^7.0.0",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5"
   },
