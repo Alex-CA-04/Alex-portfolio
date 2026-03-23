@@ -1,32 +1,5 @@
 {
-<<<<<<< HEAD
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" }
-=======
-  "version": 2,
-  "builds": [
-    {
-      "src": "public/**",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "server/app.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "server/app.js"
-    },
-    {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|ico|svg))",
-      "dest": "public/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "public/index.html"
-    }
->>>>>>> afd42cdbf307eb65f4cfff657c5b641d5e526716
   ]
 }
